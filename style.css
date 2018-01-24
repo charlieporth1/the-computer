@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'HK Grotesk', Helvetica, Arial, sans-serif;
+  font-size: 2.3rem;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0;
+}
+
+span {
+  color: #f00;
+}
+
+#list {
+  margin: 1rem;
+}
+
+#map {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  color: #000;
+}
+
+.star,
+.blank {
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+  background: #f00;
+  margin-bottom: 1rem;
+}
+
+.blank {
+  background: #ddd;
+}
